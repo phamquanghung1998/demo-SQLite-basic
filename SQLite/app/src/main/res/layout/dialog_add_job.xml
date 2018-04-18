@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp"
+    android:background="#00ffbb"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textThem"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textColor="#ff0900"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:text="Add Job"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        />
+    <EditText
+        android:hint="ENTER JOB"
+        android:background="#ebebef"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/textThem"
+        android:id="@+id/textTenCV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:id="@+id/ButtonAdd"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:text="ADD"
+        android:layout_below="@id/textTenCV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+            android:id="@+id/ButtonCancel"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/textTenCV"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:text="CANCEL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+</RelativeLayout>
